@@ -1,9 +1,17 @@
-body{
+
+.box {
+    width: 350px;
+    height: 350px;
+    border: 25px;
+    margin: 25px;
     background-color: aqua;
 }
-footer{
-    width: 200px;
-    height: 200px;
+footer {
+    width: 400px;
+    height: 100px;
+    background-color: black;
+    color: white;
     display: flex;
-    justify-content: center;
+    justify-content: last baseline;
+    
 }
