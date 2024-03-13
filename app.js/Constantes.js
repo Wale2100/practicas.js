@@ -1,7 +1,7 @@
-const MYINPUT =document.getElementById("nombre");
-const MIBOTON =document.getElementById("boton");
-
-MIBOTON.addEventListener("click", ()=>{
-    document.write("Hola " + MYINPUT.value);
-   
-});
+//cambia de color el boton
+const MY_TITLE =document.getElementById("titulo");
+const MY_BUTTON =document.getElementById("miboton");
+const MY_INPUT =document.getElementById("myinput");
+MY_BUTTON.addEventListener("click", () => {
+    MY_TITLE.style.color = MY_INPUT.value;
+}) ;
