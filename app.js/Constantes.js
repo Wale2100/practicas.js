@@ -1,7 +1,11 @@
-//cambia de color el boton
-const MY_TITLE =document.getElementById("titulo");
-const MY_BUTTON =document.getElementById("miboton");
-const MY_INPUT =document.getElementById("myinput");
-MY_BUTTON.addEventListener("click", () => {
-    MY_TITLE.style.color = MY_INPUT.value;
-}) ;
+const MYINPUT =document.getElementById("nombre");
+const MIBOTON =document.getElementById("boton");
+
+MIBOTON.addEventListener("click", ()=>{
+    for(i=0;i<2;i++){
+    console.log("Hola " + MYINPUT.value)
+}});
+
+for (i=0;i<4;i++){
+    console.log("interactuando en js " + i)
+};
