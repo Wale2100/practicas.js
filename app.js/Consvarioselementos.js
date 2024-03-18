@@ -1,5 +1,5 @@
 
-const MY_TITLE =document.getElementById("titulo");
+const MY_TITLE =document.getElementsByName("h1")[0];
 const MY_BUTTON =document.getElementById("miboton");
 const MY_INPUT =document.getElementById("myinput");
 
