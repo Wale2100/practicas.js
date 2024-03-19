@@ -1,13 +1,24 @@
 const lista = document.getElementsByTagName("li");
+
 for (let i = 0; i < lista.length; i +=1 ){
-    lista[5].style.color = "green";
+    lista[i].style.color = "green";
 }
 
 const MARCADO = document.getElementsByClassName("marcado");
 for (let i = 0; i < MARCADO.length; i +=1 ){
-    MARCADO[i].style.color = "red";
+    MARCADO[i].style.color = "black";
 }
-const PROGRAMACION = document.querySelectorAll("li,marcado");
-for (let i = 0; i < PROGRAMACION.length; i +=1 ){
-    PROGRAMACION[4].style.backgroundColor = "pink";
+
+const ODD = document.querySelectorAll("li:nth-child(odd)");
+for (let i = 0; i < ODD.length; i +=1 ){
+    ODD[i].style.backgroundColor = "pink";
 }
+
+
+const EVEN = document.querySelectorAll("li:nth-child(even)");
+for (let i = 0; i < EVEN.length; i +=1 ){
+    EVEN[i].style.backgroundColor = "lightblue";
+}
+
+
+var x = document.querySelector("p")
