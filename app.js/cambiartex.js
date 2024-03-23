@@ -3,7 +3,7 @@ const LIST = document.querySelector(".list");
 
 const input = document.querySelector("input");
 const p = document.querySelector("p.pixelpro");
-const button = document.querySelector("button");
+const button = document.querySelector("button.pixelpro");
 
 TOGGLE.addEventListener("click", () => {
 
