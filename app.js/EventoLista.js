@@ -1,9 +1,14 @@
-const LIST_ITEMS = document.getElementsByTagName( "li")[0];
+const LIST_ITEMS = document.getElementsByTagName( "li");
 
-LIST_ITEMS.addEventListener("mouseover", () => {
-    LIST_ITEMS.textContent = LIST_ITEMS.textContent.toUpperCase();
-});
+for (let i = 0; i  < LIST_ITEMS.length; i += 1) {
 
-LIST_ITEMS.addEventListener("mouseout", () => {
-    LIST_ITEMS.textContent = LIST_ITEMS.textContent.toLowerCase();
-});
+    LIST_ITEMS[i].addEventListener("mouseover", () => {
+        LIST_ITEMS[i].textContent = LIST_ITEMS[i].textContent.toUpperCase();
+    });
+    
+    LIST_ITEMS[i].addEventListener("mouseout", () => {
+        LIST_ITEMS[i].textContent = LIST_ITEMS[i].textContent.toLowerCase();
+    });
+    
+}
+
